@@ -105,7 +105,7 @@ function updateWarParticipantData(playerName = "default", warDate, townHallLevel
  */
 async function fetchClanWarData() {
     try {
-        const response = await fetch('http://localhost:3000/clanwar'); 
+        const response = await fetch('/clanwar'); // Changed to relative path
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`); 
         }

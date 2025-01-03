@@ -1,11 +1,12 @@
 const express = require('express');
 const { Client } = require('clashofclans.js');
 const cors = require('cors');
-const fs = require('fs');  // Import fs module
+const fs = require('fs');
+const path = require('path'); // Import path module
 
 const app = express();
 app.use(cors());
-const port = 3000;
+const port = 3000; // You might change this
 
 const client = new Client({
     keys: [
@@ -14,6 +15,20 @@ const client = new Client({
 });
 
 let datasaved = false;
+// Serve static files from the same directory as server.js
+app.use(express.static(path.join(__dirname)));
+
+
+// Serve static files from the 'TownHall Assets' folder.
+app.use('/TownHall Assets', express.static(path.join(__dirname, 'TownHall Assets')));
+
+// Serve static files from the 'Background' folder.
+app.use('/Background', express.static(path.join(__dirname, 'Background')));
+// Serve static files from the 'ClanWarData' folder.
+app.use('/ClanWarData', express.static(path.join(__dirname, 'ClanWarData')));
+
+
+// API Endpoint
 app.get('/clanwar', async (req, res) => {
     try {
         // Fetch the clan war data
@@ -34,6 +49,17 @@ app.get('/clanwar', async (req, res) => {
     }
 });
 
-app.listen(port, () => {
+
+// Start the server
+const server = app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
 });
+
+// Error handling for the server
+server.on('error', (error) => {
+    if (error.code === 'EADDRINUSE') {
+      console.error(`Port ${port} is already in use. Try a different port.`);
+    } else {
+      console.error(`An unexpected error occurred:`, error);
+    }
+  });
