@@ -223,7 +223,7 @@ async function populateWarTableFromApiData(clanWarDataa) {
 async function loadAndPrintJson(fileName) {
     let clanWarData;
     try {
-        const response = await fetch(`./ClanWarData/${fileName}`);
+        const response = await fetch(`./clanWarData/${fileName}`);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status} ${response.statusText} for file: ${fileName}`);
         }
