@@ -1,0 +1,39 @@
+const express = require('express');
+const { Client } = require('clashofclans.js');
+const cors = require('cors');
+const fs = require('fs');  // Import fs module
+
+const app = express();
+app.use(cors());
+const port = 3000;
+
+const client = new Client({
+    keys: [
+        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjVkZTIyYTQ2LTk4YjQtNGM2MC05N2I2LWQ4NDkwYmU0MzhhMyIsImlhdCI6MTczNTU3NzY5MCwic3ViIjoiZGV2ZWxvcGVyLzk5M2Y2NTI2LTY0NjgtNjE2OS1iMWI0LWQ3Zjk2OTcxODljNyIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUuMjguMTA4LjEwIl0sInR5cGUiOiJjbGllbnQifV19.ni2JFl4niy3ZHXxVjkBDluYYTLMKfu8ytUzaONC3W12TfyFKdgkF8hfx-Js3CsNkd_NeFFDnqvbZ41WKE91Czw',
+    ],
+});
+
+let datasaved = false;
+app.get('/clanwar', async (req, res) => {
+    try {
+        // Fetch the clan war data
+        const clanWar = await client.getClanWar('#2QCQVVQG2');
+        // Save the fetched data to a JSON file
+        if(datasaved == false){ //clanWar.status == 'warEnded'
+            const jsonString = JSON.stringify(clanWar, null, 2); // Pretty-print JSON with indentation
+            fs.writeFileSync('clanWarData.json', jsonString, 'utf8');  // Save to 'clanWarData.json'
+            console.log('Clan war data saved to clanWarData.json');
+            datasaved = true;
+        }
+
+        res.json(clanWar);
+        
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        res.status(500).json({ error: 'Failed to fetch data' });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
+});
