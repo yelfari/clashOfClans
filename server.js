@@ -6,7 +6,7 @@ const path = require('path'); // Import path module
 
 const app = express();
 app.use(cors());
-const port = 3000; // You might change this
+const port = 80; // Changed to port 80
 
 const client = new Client({
     keys: [
@@ -26,6 +26,11 @@ app.use('/TownHall Assets', express.static(path.join(__dirname, 'TownHall Assets
 app.use('/Background', express.static(path.join(__dirname, 'Background')));
 // Serve static files from the 'ClanWarData' folder.
 app.use('/ClanWarData', express.static(path.join(__dirname, 'ClanWarData')));
+
+// Serve index.html on root path
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 
 // API Endpoint
