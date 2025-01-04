@@ -16,6 +16,7 @@ body::before {
   background-image: url('../Background/Background.gif');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center; 
   z-index: -1;
 }
 
