@@ -2,11 +2,11 @@ const express = require('express');
 const { Client } = require('clashofclans.js');
 const cors = require('cors');
 const fs = require('fs');
-const path = require('path'); // Import path module
+const path = require('path');
 
 const app = express();
 app.use(cors());
-const port = 80; // Changed to port 80
+const port = 80; 
 
 const client = new Client({
     keys: [
@@ -15,19 +15,18 @@ const client = new Client({
 });
 
 let datasaved = false;
-// Serve static files from the same directory as server.js
+
 app.use(express.static(path.join(__dirname)));
 
 
-// Serve static files from the 'TownHall Assets' folder.
+
 app.use('/TownHall Assets', express.static(path.join(__dirname, 'TownHall Assets')));
 
-// Serve static files from the 'Background' folder.
+
 app.use('/Background', express.static(path.join(__dirname, 'Background')));
-// Serve static files from the 'ClanWarData' folder.
+
 app.use('/ClanWarData', express.static(path.join(__dirname, 'ClanWarData')));
 
-// Serve index.html on root path
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
@@ -36,12 +35,12 @@ app.get('/', (req, res) => {
 // API Endpoint
 app.get('/clanwar', async (req, res) => {
     try {
-        // Fetch the clan war data
+
         const clanWar = await client.getClanWar('#2QCQVVQG2');
-        // Save the fetched data to a JSON file
+
         if(datasaved == false){ //clanWar.status == 'warEnded'
-            const jsonString = JSON.stringify(clanWar, null, 2); // Pretty-print JSON with indentation
-            fs.writeFileSync('clanWarData.json', jsonString, 'utf8');  // Save to 'clanWarData.json'
+            const jsonString = JSON.stringify(clanWar, null, 2);
+            fs.writeFileSync('clanWarData.json', jsonString, 'utf8'); 
             console.log('Clan war data saved to clanWarData.json');
             datasaved = true;
         }
@@ -55,12 +54,12 @@ app.get('/clanwar', async (req, res) => {
 });
 
 
-// Start the server
+
 const server = app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
 });
 
-// Error handling for the server
+
 server.on('error', (error) => {
     if (error.code === 'EADDRINUSE') {
       console.error(`Port ${port} is already in use. Try a different port.`);
