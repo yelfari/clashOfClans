@@ -15,12 +15,13 @@ const playerDataByWar = {}; // Stores player-specific data, organized by war dat
  * @param {string} playerName The name of the player.
  * @param {string} warDate The date of the war.
  */
-function updateWarParticipantData(playerName, warDate, townHallLevel = 1) {
-
+function updateWarParticipantData(playerName = "default", warDate, townHallLevel = 1) {
+    // Initialize player entry if it doesn't exist for this war date.
+        // Initialize war entry if it doesn't exist.
         if (!playerDataByWar[warDate]) {
             playerDataByWar[warDate] = {};
         }
-
+        // Initialize player entry if it doesn't exist for this war date.
         if (!(playerName in playerDataByWar[warDate])) {
             playerDataByWar[warDate][playerName] = {
                 townHallLevel: townHallLevel,
@@ -33,17 +34,17 @@ function updateWarParticipantData(playerName, warDate, townHallLevel = 1) {
             playerDataByWar[warDate][playerName].participatedWars++;
         }
 
-
+    // Access the table body for our player participant list
     const playerParticipantListBody = document.querySelector('.playerParticipant-list tbody');
     if(!playerParticipantListBody)
     {
         console.error("Could not find the .playerParticipant-list tbody element")
         return;
     }
-  
+     // Check if a row already exists for the player in the table
     const existingRow = playerParticipantListBody.querySelector(`tr[data-player="${playerName}"]`);
     if (existingRow) {
-
+         // If a row exists, update the displayed data for this player
         const warParticipatedDisplay = existingRow.querySelector('.numberWarParticipated-display');
         if(!warParticipatedDisplay){
             console.error("Could not find the .numberWarParticipated-display element");
@@ -63,8 +64,9 @@ function updateWarParticipantData(playerName, warDate, townHallLevel = 1) {
         }
 
     } else {
-        const newRow = playerParticipantListBody.insertRow();
-        newRow.setAttribute('data-player', playerName); 
+        // If no row exists for this player, create a new one.
+        const newRow = playerParticipantListBody.insertRow(); // Create row element
+        newRow.setAttribute('data-player', playerName); // Store player name as a data attribute
         newRow.classList.add('player-row')
         newRow.innerHTML = ` 
             <td>
@@ -77,8 +79,8 @@ function updateWarParticipantData(playerName, warDate, townHallLevel = 1) {
             <td><div class="reachedNumberStars-display" data-player="${playerName}">${playerDataByWar[warDate][playerName].reachedStars}</div></td>
             <td><div class="maxNumberStars-display" data-player="${playerName}">${playerDataByWar[warDate][playerName].participatedWars * 6}</div></td>
             <td><div class="numberWarParticipated-display">${playerDataByWar[warDate][playerName].participatedWars}</div></td>
-        `; 
-
+        `; // Insert row with all relevant player data
+        //Event listener
         const deleteOverlay = newRow.querySelector('.delete-player-overlay');
          deleteOverlay.addEventListener('click', function () {
            if (confirm(`Soll der Spieler ${playerName} wirklich gelöscht werden?`)) {
@@ -86,7 +88,7 @@ function updateWarParticipantData(playerName, warDate, townHallLevel = 1) {
                 delete playerDataByWar[warDate][playerName];
                  // Delete from table
                  newRow.remove();
-                 savePlayerData();
+                 console.log(playerDataByWar)
             }
          })
     }
@@ -165,7 +167,6 @@ async function populateWarTableFromApiData(clanWarDataa) {
     deleteButton.addEventListener('click', () => {
         if (confirm('Soll dieser Kriegseintrag wirklich gelöscht werden?')) {
             newWarEntry.remove();
-             savePlayerData();
         }
     });
 
@@ -181,7 +182,7 @@ async function populateWarTableFromApiData(clanWarDataa) {
             }
 
         if (!(playerName in playerDataByWar[clanWarDataa.startTime.slice(0,10)])){
-            updateWarParticipantData(playerName, clanWarDataa.startTime.slice(0,10), member.townHallLevel);
+            updateWarParticipantData(playerName, clanWarDataa.startTime.slice(0,10));
         }
 
         const playerListBody = newWarEntry.querySelector('.player-list tbody'); 
@@ -214,11 +215,9 @@ async function populateWarTableFromApiData(clanWarDataa) {
                     <option value="spät">spät</option>
                 </select>
             </td>
-        `;
-        playerDataByWar[clanWarDataa.startTime.slice(0,10)][member.name].reachedStars += (member.attacks?.[0]?.stars || 0) + (member.attacks?.[1]?.stars || 0);
-        updateWarParticipantData(member.name,clanWarDataa.startTime.slice(0,10), member.townHallLevel);
+        `; 
     }
-     savePlayerData();
+
 }
 
 async function loadAndPrintJson(fileName) {
@@ -236,16 +235,21 @@ async function loadAndPrintJson(fileName) {
         console.error('Error loading or parsing JSON:', error);
         return;
     }
+
+    // Check if the data was loaded correctly.
     if(!clanWarData){
        console.error("Failed to retrieve ClanWarData, can not continue.");
        return;
     }
+
+      // Get the war list element
       const warList = document.getElementById('warList');
       if(!warList){
         console.error("Could not find warList Element");
         return;
       }
   
+      // Create a new war entry element.
       const newWarEntry = document.createElement('div');
       newWarEntry.classList.add('war-entry');
       newWarEntry.classList.add('collapsed');
@@ -277,7 +281,6 @@ async function loadAndPrintJson(fileName) {
       deleteButton.addEventListener('click', () => {
           if (confirm('Soll dieser Kriegseintrag wirklich gelöscht werden?')) {
               newWarEntry.remove();
-              savePlayerData();
           }
       });
   
@@ -333,7 +336,8 @@ async function loadAndPrintJson(fileName) {
         playerDataByWar[clanWarData.startTime.slice(0,10)][member.name].reachedStars += (member.attacks?.[0]?.stars || 0) + (member.attacks?.[1]?.stars || 0);
         updateWarParticipantData(member.name,clanWarData.startTime.slice(0,10), member.townHallLevel);
         }
-    savePlayerData();    
+        
+
   }
 
   const fileNames = [
@@ -348,52 +352,16 @@ async function loadAndPrintJson(fileName) {
       }
   }
 
-
- // ==========================================================
-// --- Local Storage Functions ---
-// ==========================================================
-
-  function savePlayerData() {
-    const jsonData = JSON.stringify(playerDataByWar);
-    localStorage.setItem('playerData', jsonData);
-   }
-
-
-  function loadPlayerData() {
-    const storedData = localStorage.getItem('playerData');
-    if (storedData) {
-      try{
-        const parsedData = JSON.parse(storedData);
-         //Clear old playerDataByWar dict before adding new data
-          for (const key in playerDataByWar) {
-          if (playerDataByWar.hasOwnProperty(key)) {
-          delete playerDataByWar[key];
-          }
-         }
-         Object.assign(playerDataByWar, parsedData)
-      } catch (error) {
-        console.error("Error parsing the local stored data: " + error)
-      }
-    }
-  }
-
-  function clearPlayerData() {
-     localStorage.removeItem('playerData');
-  }
-
-
 // ==========================================================
 // --- DOMContentLoaded Event Listener ---
 // ==========================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    loadPlayerData(); // Load data from localStorage first
     const playerContainer = document.getElementById('playerContainer');
 
     if(playerContainer){
         playerContainer.addEventListener('click', function () {
             this.classList.toggle('open');
-              savePlayerData();
             this.scrollTop = 0;
         });
     } else {
@@ -402,9 +370,4 @@ document.addEventListener('DOMContentLoaded', () => {
      // Fetch data when page is loaded
     processAllJsonFiles();
     fetchClanWarData();
-     //save data on change
-     const warList = document.getElementById('warList');
-     if(warList){
-         warList.addEventListener('click', savePlayerData)
-        }
 });

@@ -25,7 +25,7 @@ app.use('/TownHall Assets', express.static(path.join(__dirname, 'TownHall Assets
 
 app.use('/Background', express.static(path.join(__dirname, 'Background')));
 
-app.use('/ClanWarData', express.static(path.join(__dirname, 'ClanWarData')));
+app.use('/ClanWarData', express.static(path.join(__dirname, 'clanWarData')));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
