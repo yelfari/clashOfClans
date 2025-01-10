@@ -1,0 +1,392 @@
+/* ========================================================== */
+/* --- General Body Styles --- */
+/* ========================================================== */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+/* ========================================================== */
+/* --- Background Overlay --- */
+/* ========================================================== */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-image: url('../Background/DerX.png'); /* Background image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the background image */
+  z-index: -1; /* Place behind other elements */
+}
+
+/* ========================================================== */
+/* --- Navigation Bar Styles --- */
+/* ========================================================== */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Vertically align items */
+  padding: 10px;
+  background-color: #9e9494; /* Grey navbar background */
+  opacity: 0.7; /* Slightly transparent background */
+}
+
+.navbarText {
+  flex: 1; /* Take up remaining space */
+  text-align: center; /* Center the text */
+}
+
+/* Container for welcome message and logout button */
+.welcome-logout-container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  gap: 10px; /* Spacing between items */
+}
+
+/* ========================================================== */
+/* --- Login Header Styles --- */
+/* ========================================================== */
+.login-header label,
+.login-header input {
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+
+.login-header input[type="submit"] {
+  margin-top: 5px;
+}
+
+/* ========================================================== */
+/* --- Main Layout Container --- */
+/* ========================================================== */
+.main-layout {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items to the start vertically */
+  gap: 20px; /* Spacing between main items */
+  margin-left: 5vw; /* Left margin based on viewport width */
+  margin-right: 5vw; /* Right margin based on viewport width */
+  margin-top: 5vh; /* Top margin based on viewport height */
+  width: 100%; /* Full width */
+  min-height: 100vh; /* Minimum height to fill viewport */
+  padding: 20px; /* Padding around the layout */
+}
+
+/* ========================================================== */
+/* --- Main Content Container --- */
+/* ========================================================== */
+.container {
+  flex: 0.85; /* Takes up most of the layout space */
+  background-color: rgba(255, 255, 255, 0.85); /* White background with slight transparency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  z-index: 1;
+  display: flex; /* Flexbox for layout within container */
+  flex-direction: column; /* Arrange items vertically */
+  min-height: auto; /* Allow container to shrink to fit content */
+}
+
+/* ========================================================== */
+/* --- Heading 1 Styles --- */
+/* ========================================================== */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ========================================================== */
+/* --- Button Styles --- */
+/* ========================================================== */
+button {
+  display: block;
+  margin: 20px auto; /* Center button horizontally */
+  padding: 10px 15px;
+  background-color: #5cb85c; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Hand cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+  z-index: 1;
+}
+
+button:hover {
+  background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* ========================================================== */
+/* --- War Entry Styles --- */
+/* ========================================================== */
+.war-entry {
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #f9f9f9; /* Light grey background */
+  overflow: hidden; /* Hide overflowing content during animation */
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out, border 0.3s ease-in-out;
+  max-height: 1000px; /* Initial max height */
+  z-index: 1;
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+}
+
+.war-entry h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer; /* Hand cursor on hover */
+}
+
+.war-entry h2 span {
+  flex-grow: 1;
+}
+
+.war-entry h2::after {
+  content: '\25BC'; /* Down arrow character */
+  font-size: 0.8em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.war-entry.collapsed h2::after {
+  transform: rotate(-180deg); /* Rotate arrow on collapse */
+}
+
+.war-entry.collapsed {
+  max-height: 70px; /* Height when collapsed */
+  padding: 5px;
+  border: 1px solid transparent; /* No visible border when collapsed */
+}
+
+/* ========================================================== */
+/* --- Player List Table Styles --- */
+/* ========================================================== */
+.player-list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.player-list th,
+.player-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.player-list th {
+  background-color: #f2f2f2;
+}
+
+.player-list td input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.war-entry .player-list,
+.war-entry .player-name-input,
+.war-entry .add-player-button {
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.3s ease-in-out,
+      margin 0.3s ease-in-out;
+  max-height: 1000px;
+  opacity: 1;
+  padding: 15px;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+
+.war-entry.collapsed .player-list,
+.war-entry.collapsed .player-name-input,
+.war-entry.collapsed .add-player-button {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* ========================================================== */
+/* --- Delete War Button Styles --- */
+/* ========================================================== */
+.delete-war-button {
+  background-color: #d9534f; /* Red background */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+.delete-war-button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}
+
+/* ========================================================== */
+/* --- Player Participant Container Styles --- */
+/* ========================================================== */
+.playerContainer {
+  max-width: 600px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.85); /* White background with slight transparency */
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  max-height: 55px;
+  overflow: hidden;
+  opacity: 0.5;
+  cursor: pointer;
+  margin-right: auto; /* Push to the left */
+  margin-left: 0;
+  z-index: 2;
+  position: relative;
+  flex-basis: auto; /* Allow the container to grow or shrink based on its content */
+}
+
+.playerContainer.open {
+  max-height: 100vh;
+  overflow-y: auto;
+  opacity: 1;
+}
+
+.playerContainer h1 {
+  margin-bottom: 20px;
+}
+
+/* ========================================================== */
+/* --- Player Participant List Table Styles --- */
+/* ========================================================== */
+.playerParticipant-list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden; /* Hide content overflowing border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: block;
+  overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+}
+
+.playerParticipant-list thead th {
+  background-color: #f2f2f2;
+  padding: 12px 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  white-space: nowrap;
+  font-size: 0.9em; /* Reduce font size for table headers */
+}
+
+.playerParticipant-list tbody tr:nth-child(even) {
+  background-color: #e7e7e7; /* Light grey for even rows */
+}
+
+.playerParticipant-list tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #0cccee;
+  white-space: nowrap; /* Prevent text wrapping */
+  font-size: 0.9em; /* Reduce font size for table cells */
+}
+
+.playerParticipant-list img {
+  vertical-align: middle; /* Align image with text */
+  border-radius: 50%;
+  margin-right: 8px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  width: 25px;
+  height: 25px;
+}
+
+/* Styles for displaying player stats */
+.reachedNumberStars-display,
+.maxNumberStars-display,
+.numberWarParticipated-display {
+  font-weight: bold;
+}
+
+/* ========================================================== */
+/* --- Responsive Styles for Small Screens --- */
+/* ========================================================== */
+@media (max-width: 768px) {
+    .main-layout {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 10px;
+        width: 100%;
+        margin-left: 0; /* Reset left margin for small screens */
+        margin-right: 0; /* Reset right margin for small screens */
+    }
+
+  .playerContainer {
+      margin-left: auto; /* Center the player container */
+      margin-right: auto;
+      position: static;
+      flex-basis: auto;
+      max-width: 90%;
+  }
+
+  .container {
+      margin-left: 0;
+      width: 95%;
+      max-width: none;
+  }
+}
+
+/* ========================================================== */
+/* --- Delete Player Overlay Styles --- */
+/* ========================================================== */
+.delete-player-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 0, 0, 0.7); /* Red background with transparency */
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.8em;
+  display: none;
+}
+
+.delete-player-overlay.hidden {
+  display: none;
+}
+
+/* Show overlay on player row hover and when it's not hidden */
+.player-row:hover .delete-player-overlay,
+.player-row .delete-player-overlay:not(.hidden) {
+  display: inline-block;
+}
+
+/* ========================================================== */
+/* --- Logout Button Styles --- */
+/* ========================================================== */
+.logout-button {
+background-color: #d9534f; /* Red background */
+color: white;
+padding: 8px 12px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+margin-left: 10px;
+z-index: 1;
+}
+.logout-button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}

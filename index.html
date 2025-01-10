@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOXTOWN Klankriegs-Tracker</title>
+    <link rel="stylesheet" href="frontend/styles.css">
+</head>
+
+<body>
+    <div class= "navbar">
+         <h1 class="navbarText"> SOXTOWN</h1>       
+        <div class="login-header">
+            <form action="login">
+                <label for="fname">Username:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Password:</label>
+                <input type="password" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="main-layout">
+        <div class="container">
+            <h1>SOXTOWN Klankriegs-Tracker</h1>
+            <!-- <button id="addWarButton">Neuen Klankrieg hinzufügen</button> -->
+            <div id="warList">
+            </div>
+        </div>
+       <div class="playerContainer" id="playerContainer">
+        <h1>Klankriegs-Tracker</h1>
+        <div id="warParticipantList">
+             <table class="playerParticipant-list">
+                 <thead>
+                     <tr>
+                         <th><img src="TownHallAssets/TownHall1.jpg" alt="Description of the image" width="50" height="50"></th>
+                         <th>Spieler Name</th>
+                         <th>erreichte Sterne</th>
+                         <th>Max Sterne</th>
+                         <th>Kriegs Anzahl</th>
+                     </tr>
+                 </thead>
+                 <tbody></tbody>
+             </table>
+         </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="frontend/js/script.js" type="module"></script>
+</body>
+</html>
