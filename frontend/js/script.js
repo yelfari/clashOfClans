@@ -25,14 +25,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     async function processAllJsonFiles() {
+        console.log(`Starting to process ${fileNames.length} files`);
         for (const fileName of fileNames) {
+            console.log(`Processing file: ${fileName}`);
             await loadAndPrintJson(fileName);
         }
     }
-    processAllJsonFiles();
     
     try {
          const clanWarData = await fetchClanWarData()
+         console.log("I AM NOT WAITING")
+         processAllJsonFiles() // here i would call that AFTER ALL FILES ARE UPDATED
             if (clanWarData.state === 'notInWar') {
                return
            } else {

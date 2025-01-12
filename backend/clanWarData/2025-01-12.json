@@ -1,0 +1,195 @@
+{
+  "state": "preparation",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-11T22:14:58.000Z",
+  "startTime": "2025-01-12T21:14:58.000Z",
+  "endTime": "2025-01-13T21:14:58.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
+    },
+    "level": 9,
+    "stars": 0,
+    "attackCount": 0,
+    "destruction": 0,
+    "members": [
+      {
+        "name": "äskin",
+        "tag": "#LVRGJ8YLC",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "king danii",
+        "tag": "#Y29L998UC",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Ezio Auditore",
+        "tag": "#YCVULLG2Y",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Tim",
+        "tag": "#2YV92C22G",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Miko",
+        "tag": "#QYULGUVQ2",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Rotter",
+        "tag": "#QYVPPLJVR",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Bester",
+        "tag": "#PVJLYLYRV",
+        "mapPosition": 10,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      }
+    ]
+  },
+  "opponent": {
+    "name": "TÜRKİYE",
+    "tag": "#J99GV2PJ",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/Q8csuviineTpDRZ4IE24TmUAEAOf10S18L5D7iDYOoE.png"
+    },
+    "level": 20,
+    "stars": 0,
+    "attackCount": 0,
+    "destruction": 0,
+    "members": [
+      {
+        "name": "görkem 2917",
+        "tag": "#Q2RR002CR",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "✨✨✨kazani✨✨✨",
+        "tag": "#V0VCL2Q8",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "KAOS76",
+        "tag": "#2LJPL88UC",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "frkng24",
+        "tag": "#L2LRG28G2",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "ALİ DAYI",
+        "tag": "#QGVL2U8LQ",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "mustafa",
+        "tag": "#G0VJ020LQ",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "NEZRON",
+        "tag": "#9G2PUL0PV",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "ツㅤＰ么ＴＲＯＮㅤ〆",
+        "tag": "#9PUUPC98R",
+        "mapPosition": 10,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "sude",
+        "tag": "#L9YY80CJC",
+        "mapPosition": 3,
+        "townHallLevel": 14,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Ard779",
+        "tag": "#QLGCP90Y0",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      }
+    ]
+  }
+}

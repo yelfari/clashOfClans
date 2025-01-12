@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 
 const { fetchClanWarData } = require('./api');
 const { createSession, removeSession, isValidSession, getUsername, validateUser } = require('./auth');
-const { saveClanWarData, readClanWarData } = require('./db');
+const { saveClanWarData} = require('./db');
 const config = require('./config');
 
 const app = express();
@@ -33,11 +33,11 @@ app.get('/clanwar', async (req, res) => {
         if (clanWar.state === "notInWar") {
              return res.json(clanWar);
          } else {
-            const savedData = await readClanWarData();
-            if(!savedData || savedData.state != clanWar.state || savedData.startTime != clanWar.startTime){
-                await saveClanWarData(clanWar);
-                console.log('Clan war data updated');
-             }
+            await saveClanWarData(clanWar);
+            //if(!savedData || savedData.state != clanWar.state || savedData.startTime != clanWar.startTime){
+             //   await saveClanWarData(clanWar);
+            console.log('Clan war data updated');
+           //  }
              return res.json(clanWar);
          }
     } catch (error) {

@@ -32,6 +32,7 @@ export async function loadAndPrintJson(fileName) {
 
     const newWarEntry = document.createElement('div');
     newWarEntry.classList.add('war-entry');
+    console.log("warentry created")
     newWarEntry.classList.add('collapsed');
     newWarEntry.innerHTML = `
         <h2>
