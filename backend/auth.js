@@ -2,7 +2,7 @@
 const crypto = require('crypto');
 const config = require('./config');
 
-const sessions = {}; //In memory session storage
+const sessions = {};
 
 function generateSessionId() {
     return crypto.randomBytes(16).toString('hex');

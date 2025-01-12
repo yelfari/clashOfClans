@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     try {
          const clanWarData = await fetchClanWarData()
          console.log("I AM NOT WAITING")
-         processAllJsonFiles() // here i would call that AFTER ALL FILES ARE UPDATED
+         await processAllJsonFiles() // here i would call that AFTER ALL FILES ARE UPDATED
             if (clanWarData.state === 'notInWar') {
                return
            } else {
-               await populateWarTableFromApiData(clanWarData);
+               //await populateWarTableFromApiData(clanWarData); //das macht das extra ding 
            }
     } catch(e) {
         console.error(e)
