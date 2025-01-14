@@ -29,7 +29,8 @@ app.get('/', (req, res) => {
 
 app.get('/clanwar', async (req, res) => {
     try {
-         const clanWar = await fetchClanWarData();
+        const clanWar = await fetchClanWarData();
+        console.log("hii")
         if (clanWar.state === "notInWar") {
              return res.json(clanWar);
          } else {

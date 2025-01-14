@@ -8,7 +8,7 @@ async function fetchData(url, options = {}) {
     return await response.json();
   } catch (error) {
       console.error(`Error fetching ${url}:`, error);
-      throw error; // rethrow to allow calling functions to handle it
+      throw error;
   }
 }
 

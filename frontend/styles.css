@@ -19,7 +19,7 @@ body::before {
   left: 0;
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-  background-image: url('../Background/DerX.png'); /* Background image path */
+  background-image: url('../Background/Background.gif'); /* Background image path */
   background-size: cover; /* Cover the entire viewport */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-position: center; /* Center the background image */

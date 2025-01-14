@@ -1,0 +1,195 @@
+{
+  "state": "preparation",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-14T17:05:20.000Z",
+  "startTime": "2025-01-15T16:05:20.000Z",
+  "endTime": "2025-01-16T16:05:20.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
+    },
+    "level": 9,
+    "stars": 0,
+    "attackCount": 0,
+    "destruction": 0,
+    "members": [
+      {
+        "name": "äskin",
+        "tag": "#LVRGJ8YLC",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "king danii",
+        "tag": "#Y29L998UC",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Ezio Auditore",
+        "tag": "#YCVULLG2Y",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Jaglonger",
+        "tag": "#GLPR2JV28",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Knuffiman",
+        "tag": "#LLJ082LP8",
+        "mapPosition": 4,
+        "townHallLevel": 14,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Vanessa",
+        "tag": "#QLCPYU9UL",
+        "mapPosition": 10,
+        "townHallLevel": 12,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Rotter",
+        "tag": "#QYVPPLJVR",
+        "mapPosition": 3,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      }
+    ]
+  },
+  "opponent": {
+    "name": "2. Organisation",
+    "tag": "#2Q02GVUUL",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/BDWHoLA0wR1PIo8aV9cskdR4Ysn2DlGurf8-ya0hwcA.png"
+    },
+    "level": 17,
+    "stars": 0,
+    "attackCount": 0,
+    "destruction": 0,
+    "members": [
+      {
+        "name": "Sarah",
+        "tag": "#YCRQ8YVGC",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Lord_BlackBird",
+        "tag": "#9Y089Y8RV",
+        "mapPosition": 4,
+        "townHallLevel": 14,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "basti",
+        "tag": "#G900UG8CP",
+        "mapPosition": 3,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "sophie",
+        "tag": "#GYL2CQPR8",
+        "mapPosition": 9,
+        "townHallLevel": 12,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Skaldor",
+        "tag": "#YPVVUPY2J",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Queensland",
+        "tag": "#GQP0JUGL8",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "DrSanta",
+        "tag": "#LJ9QLCYP9",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Zillalinchen",
+        "tag": "#GLCPYJ0GQ",
+        "mapPosition": 8,
+        "townHallLevel": 12,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Skaldor2",
+        "tag": "#QQV0R9Y0P",
+        "mapPosition": 10,
+        "townHallLevel": 12,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "scanzillazwei",
+        "tag": "#G8Y8RC9J0",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      }
+    ]
+  }
+}

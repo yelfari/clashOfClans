@@ -1,5 +1,5 @@
 {
-  "state": "preparation",
+  "state": "warEnded",
   "teamSize": 10,
   "attacksPerMember": 2,
   "preparationStartTime": "2025-01-11T22:14:58.000Z",
@@ -13,49 +13,123 @@
       "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
     },
     "level": 9,
-    "stars": 0,
-    "attackCount": 0,
-    "destruction": 0,
+    "stars": 24,
+    "attackCount": 16,
+    "destruction": 87.7,
     "members": [
       {
         "name": "äskin",
         "tag": "#LVRGJ8YLC",
         "mapPosition": 8,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 31,
+            "duration": 124,
+            "attackerTag": "#LVRGJ8YLC",
+            "defenderTag": "#9PUUPC98R"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#9PUUPC98R"
       },
       {
         "name": "november",
         "tag": "#QCPVPC9VG",
         "mapPosition": 9,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 82,
+            "order": 32,
+            "duration": 116,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#9G2PUL0PV"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#9G2PUL0PV"
       },
       {
         "name": "king danii",
         "tag": "#Y29L998UC",
         "mapPosition": 7,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 79,
+            "order": 14,
+            "duration": 119,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#2LJPL88UC"
+          },
+          {
+            "stars": 1,
+            "destruction": 83,
+            "order": 17,
+            "duration": 156,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#G0VJ020LQ"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2LJPL88UC"
       },
       {
         "name": "Ezio Auditore",
         "tag": "#YCVULLG2Y",
         "mapPosition": 1,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 10,
+            "duration": 94,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#L9YY80CJC"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 11,
+            "duration": 113,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#Q2RR002CR"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QGVL2U8LQ"
       },
       {
         "name": "Consticb123",
         "tag": "#PG08P8J2Y",
         "mapPosition": 5,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 79,
+            "order": 23,
+            "duration": 130,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#9G2PUL0PV"
+          },
+          {
+            "stars": 1,
+            "destruction": 44,
+            "order": 25,
+            "duration": 85,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#V0VCL2Q8"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QGVL2U8LQ"
       },
       {
         "name": "Tim",
@@ -63,39 +137,112 @@
         "mapPosition": 3,
         "townHallLevel": 13,
         "attacks": [],
-        "defenseCount": 0
+        "defenseCount": 3,
+        "_bestOpponentAttackerTag": "#Q2RR002CR"
       },
       {
         "name": "Miko",
         "tag": "#QYULGUVQ2",
         "mapPosition": 6,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 61,
+            "order": 19,
+            "duration": 91,
+            "attackerTag": "#QYULGUVQ2",
+            "defenderTag": "#QGVL2U8LQ"
+          },
+          {
+            "stars": 1,
+            "destruction": 74,
+            "order": 21,
+            "duration": 90,
+            "attackerTag": "#QYULGUVQ2",
+            "defenderTag": "#V0VCL2Q8"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2LJPL88UC"
       },
       {
         "name": "Rotter",
         "tag": "#QYVPPLJVR",
         "mapPosition": 2,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 8,
+            "duration": 99,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#L2LRG28G2"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 9,
+            "duration": 104,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#QLGCP90Y0"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L2LRG28G2"
       },
       {
         "name": "Finn",
         "tag": "#L0P8QP09P",
         "mapPosition": 4,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 77,
+            "order": 24,
+            "duration": 149,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#G0VJ020LQ"
+          },
+          {
+            "stars": 2,
+            "destruction": 65,
+            "order": 26,
+            "duration": 107,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#QGVL2U8LQ"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Q2RR002CR"
       },
       {
         "name": "Bester",
         "tag": "#PVJLYLYRV",
         "mapPosition": 10,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 80,
+            "order": 1,
+            "duration": 104,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#9PUUPC98R"
+          },
+          {
+            "stars": 1,
+            "destruction": 89,
+            "order": 20,
+            "duration": 146,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#9G2PUL0PV"
+          }
+        ],
+        "defenseCount": 3,
+        "_bestOpponentAttackerTag": "#9G2PUL0PV"
       }
     ]
   },
@@ -106,49 +253,139 @@
       "url": "https://api-assets.clashofclans.com/badges/512/Q8csuviineTpDRZ4IE24TmUAEAOf10S18L5D7iDYOoE.png"
     },
     "level": 20,
-    "stars": 0,
-    "attackCount": 0,
-    "destruction": 0,
+    "stars": 22,
+    "attackCount": 16,
+    "destruction": 77.4,
     "members": [
       {
         "name": "görkem 2917",
         "tag": "#Q2RR002CR",
         "mapPosition": 4,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 91,
+            "order": 7,
+            "duration": 179,
+            "attackerTag": "#Q2RR002CR",
+            "defenderTag": "#L0P8QP09P"
+          },
+          {
+            "stars": 2,
+            "destruction": 57,
+            "order": 22,
+            "duration": 65,
+            "attackerTag": "#Q2RR002CR",
+            "defenderTag": "#2YV92C22G"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
       },
       {
         "name": "✨✨✨kazani✨✨✨",
         "tag": "#V0VCL2Q8",
         "mapPosition": 5,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 80,
+            "order": 13,
+            "duration": 93,
+            "attackerTag": "#V0VCL2Q8",
+            "defenderTag": "#2YV92C22G"
+          },
+          {
+            "stars": 1,
+            "destruction": 74,
+            "order": 15,
+            "duration": 85,
+            "attackerTag": "#V0VCL2Q8",
+            "defenderTag": "#LVRGJ8YLC"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QYULGUVQ2"
       },
       {
         "name": "KAOS76",
         "tag": "#2LJPL88UC",
         "mapPosition": 7,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 2,
+            "duration": 156,
+            "attackerTag": "#2LJPL88UC",
+            "defenderTag": "#QYULGUVQ2"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 4,
+            "duration": 115,
+            "attackerTag": "#2LJPL88UC",
+            "defenderTag": "#Y29L998UC"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Y29L998UC"
       },
       {
         "name": "frkng24",
         "tag": "#L2LRG28G2",
         "mapPosition": 2,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 51,
+            "order": 5,
+            "duration": 110,
+            "attackerTag": "#L2LRG28G2",
+            "defenderTag": "#QYVPPLJVR"
+          },
+          {
+            "stars": 1,
+            "destruction": 81,
+            "order": 6,
+            "duration": 119,
+            "attackerTag": "#L2LRG28G2",
+            "defenderTag": "#2YV92C22G"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QYVPPLJVR"
       },
       {
         "name": "ALİ DAYI",
         "tag": "#QGVL2U8LQ",
         "mapPosition": 6,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 87,
+            "order": 12,
+            "duration": 117,
+            "attackerTag": "#QGVL2U8LQ",
+            "defenderTag": "#PG08P8J2Y"
+          },
+          {
+            "stars": 1,
+            "destruction": 62,
+            "order": 29,
+            "duration": 93,
+            "attackerTag": "#QGVL2U8LQ",
+            "defenderTag": "#YCVULLG2Y"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
       },
       {
         "name": "mustafa",
@@ -156,31 +393,86 @@
         "mapPosition": 8,
         "townHallLevel": 13,
         "attacks": [],
-        "defenseCount": 0
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
       },
       {
         "name": "NEZRON",
         "tag": "#9G2PUL0PV",
         "mapPosition": 9,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 64,
+            "order": 3,
+            "duration": 150,
+            "attackerTag": "#9G2PUL0PV",
+            "defenderTag": "#QCPVPC9VG"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 30,
+            "duration": 158,
+            "attackerTag": "#9G2PUL0PV",
+            "defenderTag": "#PVJLYLYRV"
+          }
+        ],
+        "defenseCount": 3,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
       },
       {
         "name": "ツㅤＰ么ＴＲＯＮㅤ〆",
         "tag": "#9PUUPC98R",
         "mapPosition": 10,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 80,
+            "order": 16,
+            "duration": 118,
+            "attackerTag": "#9PUUPC98R",
+            "defenderTag": "#PVJLYLYRV"
+          },
+          {
+            "stars": 2,
+            "destruction": 62,
+            "order": 18,
+            "duration": 96,
+            "attackerTag": "#9PUUPC98R",
+            "defenderTag": "#LVRGJ8YLC"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#LVRGJ8YLC"
       },
       {
         "name": "sude",
         "tag": "#L9YY80CJC",
         "mapPosition": 3,
         "townHallLevel": 14,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 58,
+            "order": 27,
+            "duration": 61,
+            "attackerTag": "#L9YY80CJC",
+            "defenderTag": "#PVJLYLYRV"
+          },
+          {
+            "stars": 1,
+            "destruction": 64,
+            "order": 28,
+            "duration": 123,
+            "attackerTag": "#L9YY80CJC",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
       },
       {
         "name": "Ard779",
@@ -188,7 +480,8 @@
         "mapPosition": 1,
         "townHallLevel": 15,
         "attacks": [],
-        "defenseCount": 0
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QYVPPLJVR"
       }
     ]
   }
