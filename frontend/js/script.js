@@ -24,9 +24,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Could not find playerContainer element');
     }
 
+    
     async function processAllJsonFiles() {
-        console.log(`Starting to process ${fileNames.length} files`);
-        for (const fileName of fileNames) {
+        const reversedFileNames = [...fileNames].reverse();  // Create reversed copy
+        console.log(`Starting to process ${reversedFileNames.length} files`);  // Log the reversed array length
+        for (const fileName of reversedFileNames) {
             console.log(`Processing file: ${fileName}`);
             await loadAndPrintJson(fileName);
         }

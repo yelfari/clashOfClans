@@ -3,9 +3,9 @@ import { fetchClanWarData } from './api.js';
 let playerDataByWar = {};
 
 export async function loadAndPrintJson(fileName) {
-    console.log("hi")
     let clanWarData;
-    try {
+    let clanWarResult = 0;
+    try {   
         const response = await fetch(`./clanWarData/${fileName}`);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status} ${response.statusText} for file: ${fileName}`);
@@ -37,6 +37,7 @@ export async function loadAndPrintJson(fileName) {
     newWarEntry.innerHTML = `
         <h2>
             <span>Klankrieg </span>
+            <span>${clanWarData.clan.stars}-${clanWarData.opponent.stars} </span>
             <span>${clanWarData.startTime.slice(0, 10)} </span>
             <span>${clanWarData.state} </span>
             <button class="delete-war-button">Löschen</button>
@@ -55,6 +56,20 @@ export async function loadAndPrintJson(fileName) {
         </table>
     `;
     warList.appendChild(newWarEntry);
+
+    // Determine the war result based on stars and destruction
+    const h2Entry = newWarEntry.querySelector("h2")
+    h2Entry.style.display = "flexbox"
+    if (clanWarData.clan.stars > clanWarData.opponent.stars || 
+        (clanWarData.clan.stars === clanWarData.opponent.stars && clanWarData.clan.destruction > clanWarData.opponent.destruction)) {
+        clanWarResult = 1;
+        h2Entry.style.backgroundColor = '#99e599'; // Victory
+    } else if (clanWarData.clan.stars < clanWarData.opponent.stars || 
+            (clanWarData.clan.stars === clanWarData.opponent.stars && clanWarData.clan.destruction < clanWarData.opponent.destruction)) {
+        clanWarResult = 2;
+        h2Entry.style.backgroundColor = '#ffcccb'; // Loss
+    }
+
 
     const deleteButton = newWarEntry.querySelector('.delete-war-button');
     deleteButton.addEventListener('click', () => {
@@ -117,8 +132,6 @@ export async function loadAndPrintJson(fileName) {
                 </select>
             </td>
         `;
-        console.log()
-        console.log(member.name,(member.attacks?.[0]?.stars || 0) + (member.attacks?.[1]?.stars || 0))
         updateWarParticipantData(member.name, clanWarData.startTime.slice(0, 10), member.townHallLevel,(member.attacks?.[0]?.stars || 0) + (member.attacks?.[1]?.stars || 0));
     }));
 
