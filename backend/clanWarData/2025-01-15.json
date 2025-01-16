@@ -1,10 +1,10 @@
 {
-  "state": "preparation",
+  "state": "inWar",
   "teamSize": 10,
   "attacksPerMember": 2,
   "preparationStartTime": "2025-01-14T17:05:20.000Z",
-  "startTime": "2025-01-15T16:05:20.000Z",
-  "endTime": "2025-01-16T16:05:20.000Z",
+  "startTime": "2025-01-15T16:35:08.000Z",
+  "endTime": "2025-01-16T16:35:08.000Z",
   "warTag": null,
   "clan": {
     "name": "Soxtown",
@@ -13,89 +13,253 @@
       "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
     },
     "level": 9,
-    "stars": 0,
-    "attackCount": 0,
-    "destruction": 0,
+    "stars": 25,
+    "attackCount": 18,
+    "destruction": 93.7,
     "members": [
       {
         "name": "äskin",
         "tag": "#LVRGJ8YLC",
         "mapPosition": 7,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 86,
+            "order": 29,
+            "duration": 180,
+            "attackerTag": "#LVRGJ8YLC",
+            "defenderTag": "#GYL2CQPR8"
+          }
+        ],
+        "defenseCount": 3,
+        "_bestOpponentAttackerTag": "#GLCPYJ0GQ"
       },
       {
         "name": "november",
         "tag": "#QCPVPC9VG",
         "mapPosition": 8,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 1,
+            "duration": 90,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#GLCPYJ0GQ"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 17,
+            "duration": 149,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#LJ9QLCYP9"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#GQP0JUGL8"
       },
       {
         "name": "king danii",
         "tag": "#Y29L998UC",
         "mapPosition": 9,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 88,
+            "order": 2,
+            "duration": 180,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#GYL2CQPR8"
+          },
+          {
+            "stars": 1,
+            "destruction": 80,
+            "order": 6,
+            "duration": 124,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#LJ9QLCYP9"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#9Y089Y8RV"
       },
       {
         "name": "Ezio Auditore",
         "tag": "#YCVULLG2Y",
         "mapPosition": 1,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 93,
+            "order": 20,
+            "duration": 161,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#G900UG8CP"
+          },
+          {
+            "stars": 1,
+            "destruction": 82,
+            "order": 21,
+            "duration": 99,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#9Y089Y8RV"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YPVVUPY2J"
       },
       {
         "name": "Jaglonger",
         "tag": "#GLPR2JV28",
         "mapPosition": 2,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 90,
+            "order": 13,
+            "duration": 180,
+            "attackerTag": "#GLPR2JV28",
+            "defenderTag": "#YPVVUPY2J"
+          },
+          {
+            "stars": 2,
+            "destruction": 91,
+            "order": 15,
+            "duration": 163,
+            "attackerTag": "#GLPR2JV28",
+            "defenderTag": "#GQP0JUGL8"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YPVVUPY2J"
       },
       {
         "name": "Knuffiman",
         "tag": "#LLJ082LP8",
         "mapPosition": 4,
         "townHallLevel": 14,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 30,
+            "duration": 119,
+            "attackerTag": "#LLJ082LP8",
+            "defenderTag": "#GYL2CQPR8"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 31,
+            "duration": 100,
+            "attackerTag": "#LLJ082LP8",
+            "defenderTag": "#YCRQ8YVGC"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#9Y089Y8RV"
       },
       {
         "name": "Vanessa",
         "tag": "#QLCPYU9UL",
         "mapPosition": 10,
         "townHallLevel": 12,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 25,
+            "duration": 143,
+            "attackerTag": "#QLCPYU9UL",
+            "defenderTag": "#QQV0R9Y0P"
+          },
+          {
+            "stars": 0,
+            "destruction": 42,
+            "order": 26,
+            "duration": 64,
+            "attackerTag": "#QLCPYU9UL",
+            "defenderTag": "#9Y089Y8RV"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QQV0R9Y0P"
       },
       {
         "name": "Consticb123",
         "tag": "#PG08P8J2Y",
         "mapPosition": 6,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 96,
+            "order": 12,
+            "duration": 140,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#YCRQ8YVGC"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 32,
+            "duration": 142,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#QQV0R9Y0P"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#G900UG8CP"
       },
       {
         "name": "Rotter",
         "tag": "#QYVPPLJVR",
         "mapPosition": 3,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 18,
+            "duration": 82,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#GQP0JUGL8"
+          },
+          {
+            "stars": 1,
+            "destruction": 64,
+            "order": 19,
+            "duration": 86,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#YPVVUPY2J"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#G900UG8CP"
       },
       {
         "name": "Finn",
         "tag": "#L0P8QP09P",
         "mapPosition": 5,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 72,
+            "order": 11,
+            "duration": 96,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#G8Y8RC9J0"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#G8Y8RC9J0"
       }
     ]
   },
@@ -106,9 +270,9 @@
       "url": "https://api-assets.clashofclans.com/badges/512/BDWHoLA0wR1PIo8aV9cskdR4Ysn2DlGurf8-ya0hwcA.png"
     },
     "level": 17,
-    "stars": 0,
-    "attackCount": 0,
-    "destruction": 0,
+    "stars": 29,
+    "attackCount": 14,
+    "destruction": 99.6,
     "members": [
       {
         "name": "Sarah",
@@ -116,79 +280,210 @@
         "mapPosition": 6,
         "townHallLevel": 13,
         "attacks": [],
-        "defenseCount": 0
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#LLJ082LP8"
       },
       {
         "name": "Lord_BlackBird",
         "tag": "#9Y089Y8RV",
         "mapPosition": 4,
         "townHallLevel": 14,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 8,
+            "duration": 116,
+            "attackerTag": "#9Y089Y8RV",
+            "defenderTag": "#LLJ082LP8"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 16,
+            "duration": 95,
+            "attackerTag": "#9Y089Y8RV",
+            "defenderTag": "#Y29L998UC"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
       },
       {
         "name": "basti",
         "tag": "#G900UG8CP",
         "mapPosition": 3,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 5,
+            "duration": 146,
+            "attackerTag": "#G900UG8CP",
+            "defenderTag": "#QYVPPLJVR"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 23,
+            "duration": 92,
+            "attackerTag": "#G900UG8CP",
+            "defenderTag": "#PG08P8J2Y"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
       },
       {
         "name": "sophie",
         "tag": "#GYL2CQPR8",
         "mapPosition": 9,
         "townHallLevel": 12,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 56,
+            "order": 10,
+            "duration": 99,
+            "attackerTag": "#GYL2CQPR8",
+            "defenderTag": "#Y29L998UC"
+          }
+        ],
+        "defenseCount": 3,
+        "_bestOpponentAttackerTag": "#LLJ082LP8"
       },
       {
         "name": "Skaldor",
         "tag": "#YPVVUPY2J",
         "mapPosition": 1,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 3,
+            "duration": 122,
+            "attackerTag": "#YPVVUPY2J",
+            "defenderTag": "#YCVULLG2Y"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 7,
+            "duration": 88,
+            "attackerTag": "#YPVVUPY2J",
+            "defenderTag": "#GLPR2JV28"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#GLPR2JV28"
       },
       {
         "name": "Queensland",
         "tag": "#GQP0JUGL8",
         "mapPosition": 2,
         "townHallLevel": 15,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 90,
+            "order": 24,
+            "duration": 113,
+            "attackerTag": "#GQP0JUGL8",
+            "defenderTag": "#LVRGJ8YLC"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 27,
+            "duration": 120,
+            "attackerTag": "#GQP0JUGL8",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QYVPPLJVR"
       },
       {
         "name": "DrSanta",
         "tag": "#LJ9QLCYP9",
         "mapPosition": 7,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 63,
+            "order": 22,
+            "duration": 99,
+            "attackerTag": "#LJ9QLCYP9",
+            "defenderTag": "#LVRGJ8YLC"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
       },
       {
         "name": "Zillalinchen",
         "tag": "#GLCPYJ0GQ",
         "mapPosition": 8,
         "townHallLevel": 12,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 59,
+            "order": 9,
+            "duration": 100,
+            "attackerTag": "#GLCPYJ0GQ",
+            "defenderTag": "#QCPVPC9VG"
+          },
+          {
+            "stars": 2,
+            "destruction": 96,
+            "order": 28,
+            "duration": 151,
+            "attackerTag": "#GLCPYJ0GQ",
+            "defenderTag": "#LVRGJ8YLC"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
       },
       {
         "name": "Skaldor2",
         "tag": "#QQV0R9Y0P",
         "mapPosition": 10,
         "townHallLevel": 12,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 4,
+            "duration": 165,
+            "attackerTag": "#QQV0R9Y0P",
+            "defenderTag": "#QLCPYU9UL"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QLCPYU9UL"
       },
       {
         "name": "scanzillazwei",
         "tag": "#G8Y8RC9J0",
         "mapPosition": 5,
         "townHallLevel": 13,
-        "attacks": [],
-        "defenseCount": 0
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 14,
+            "duration": 131,
+            "attackerTag": "#G8Y8RC9J0",
+            "defenderTag": "#L0P8QP09P"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
       }
     ]
   }
