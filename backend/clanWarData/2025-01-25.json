@@ -1,0 +1,340 @@
+{
+  "state": "warEnded",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-24T13:57:59.000Z",
+  "startTime": "2025-01-25T12:57:59.000Z",
+  "endTime": "2025-01-26T12:57:59.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
+    },
+    "level": 9,
+    "stars": 21,
+    "attackCount": 9,
+    "destruction": 86.1,
+    "members": [
+      {
+        "name": "äskin",
+        "tag": "#LVRGJ8YLC",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L9URGQLJG"
+      },
+      {
+        "name": "Paddington",
+        "tag": "#2PGPP0PP8",
+        "mapPosition": 2,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 15,
+            "duration": 132,
+            "attackerTag": "#2PGPP0PP8",
+            "defenderTag": "#LGYR9YU9Y"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 98,
+            "order": 2,
+            "duration": 177,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#G0GC82CGP"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YRLRQ880V"
+      },
+      {
+        "name": "king danii",
+        "tag": "#Y29L998UC",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 85,
+            "order": 4,
+            "duration": 93,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#LLCQ29CGV"
+          },
+          {
+            "stars": 2,
+            "destruction": 93,
+            "order": 5,
+            "duration": 145,
+            "attackerTag": "#Y29L998UC",
+            "defenderTag": "#L9URGQLJG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LLCQ29CGV"
+      },
+      {
+        "name": "Ezio Auditore",
+        "tag": "#YCVULLG2Y",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Vanessa",
+        "tag": "#QLCPYU9UL",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LLCQ29CGV"
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 7,
+            "duration": 100,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#GYP0J2UPU"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LGYR9YU9Y"
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 3,
+            "duration": 151,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#LGCV0UCG"
+          },
+          {
+            "stars": 2,
+            "destruction": 97,
+            "order": 14,
+            "duration": 177,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#YRLRQ880V"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "Bester",
+        "tag": "#PVJLYLYRV",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 11,
+            "duration": 99,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#YRJLYYJQ0"
+          },
+          {
+            "stars": 2,
+            "destruction": 88,
+            "order": 13,
+            "duration": 107,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#8LP2029C"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "Hotlongs",
+        "tag": "#GQ9QV0P22",
+        "mapPosition": 10,
+        "townHallLevel": 8,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YRLRQ880V"
+      }
+    ]
+  },
+  "opponent": {
+    "name": "ØNÈ PĪEÇÈ",
+    "tag": "#2JYQYLJLU",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/wG601WLgLE7eqAlr5GnSCs-onR20m89xxzJPDNgPpPg.png"
+    },
+    "level": 4,
+    "stars": 15,
+    "attackCount": 6,
+    "destruction": 51.2,
+    "members": [
+      {
+        "name": "☠☠$$LESTER$$☠☠",
+        "tag": "#LLCQ29CGV",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 1,
+            "duration": 144,
+            "attackerTag": "#LLCQ29CGV",
+            "defenderTag": "#Y29L998UC"
+          },
+          {
+            "stars": 2,
+            "destruction": 74,
+            "order": 9,
+            "duration": 87,
+            "attackerTag": "#LLCQ29CGV",
+            "defenderTag": "#QLCPYU9UL"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Y29L998UC"
+      },
+      {
+        "name": "MAYNARD",
+        "tag": "#2UJY8C089",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "CJ",
+        "tag": "#8LP2029C",
+        "mapPosition": 2,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PVJLYLYRV"
+      },
+      {
+        "name": "king",
+        "tag": "#L9URGQLJG",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 77,
+            "order": 10,
+            "duration": 156,
+            "attackerTag": "#L9URGQLJG",
+            "defenderTag": "#LVRGJ8YLC"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Y29L998UC"
+      },
+      {
+        "name": "ace 17",
+        "tag": "#YRJLYYJQ0",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PVJLYLYRV"
+      },
+      {
+        "name": "Anant is back",
+        "tag": "#LGCV0UCG",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "FLOYD",
+        "tag": "#LGYR9YU9Y",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 6,
+            "duration": 117,
+            "attackerTag": "#LGYR9YU9Y",
+            "defenderTag": "#PG08P8J2Y"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2PGPP0PP8"
+      },
+      {
+        "name": "ZAYAN",
+        "tag": "#GYP0J2UPU",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PG08P8J2Y"
+      },
+      {
+        "name": "Ammu",
+        "tag": "#YRLRQ880V",
+        "mapPosition": 10,
+        "townHallLevel": 12,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 8,
+            "duration": 123,
+            "attackerTag": "#YRLRQ880V",
+            "defenderTag": "#GQ9QV0P22"
+          },
+          {
+            "stars": 2,
+            "destruction": 61,
+            "order": 12,
+            "duration": 97,
+            "attackerTag": "#YRLRQ880V",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "swayam_17ab",
+        "tag": "#G0GC82CGP",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
+      }
+    ]
+  }
+}

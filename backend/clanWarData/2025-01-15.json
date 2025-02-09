@@ -1,5 +1,5 @@
 {
-  "state": "inWar",
+  "state": "warEnded",
   "teamSize": 10,
   "attacksPerMember": 2,
   "preparationStartTime": "2025-01-14T17:05:20.000Z",

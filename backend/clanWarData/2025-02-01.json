@@ -1,0 +1,263 @@
+{
+  "state": "warEnded",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-31T12:31:22.000Z",
+  "startTime": "2025-02-01T11:31:22.000Z",
+  "endTime": "2025-02-02T11:31:22.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/oJFO0jteq1OUF7xzRh7zTF9xC-nm_j9kzh5tqkKjsDI.png"
+    },
+    "level": 10,
+    "stars": 11,
+    "attackCount": 6,
+    "destruction": 41,
+    "members": [
+      {
+        "name": "äskin",
+        "tag": "#LVRGJ8YLC",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Paddington",
+        "tag": "#2PGPP0PP8",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "king danii",
+        "tag": "#Y29L998UC",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Ezio Auditore",
+        "tag": "#YCVULLG2Y",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 7,
+            "duration": 97,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#L9GR2YV9G"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LCLQ89VVL"
+      },
+      {
+        "name": "Jaglonger",
+        "tag": "#GLPR2JV28",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 88,
+            "order": 5,
+            "duration": 117,
+            "attackerTag": "#GLPR2JV28",
+            "defenderTag": "#LCLQ89VVL"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 6,
+            "duration": 133,
+            "attackerTag": "#GLPR2JV28",
+            "defenderTag": "#VQ2U8J0J"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Miko",
+        "tag": "#QYULGUVQ2",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 2,
+            "duration": 134,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#QY9RJUCQV"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "Hotlongs",
+        "tag": "#GQ9QV0P22",
+        "mapPosition": 10,
+        "townHallLevel": 8,
+        "attacks": [
+          {
+            "stars": 0,
+            "destruction": 2,
+            "order": 3,
+            "duration": 27,
+            "attackerTag": "#GQ9QV0P22",
+            "defenderTag": "#QY98P292J"
+          },
+          {
+            "stars": 0,
+            "destruction": 20,
+            "order": 4,
+            "duration": 44,
+            "attackerTag": "#GQ9QV0P22",
+            "defenderTag": "#P2UGUYUY0"
+          }
+        ],
+        "defenseCount": 0
+      }
+    ]
+  },
+  "opponent": {
+    "name": "Imperio latam",
+    "tag": "#2RUJCRJ8V",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/dHTWqHFuoCpVsAG8qRVEDoA7UHO_LAiHx_0QzN8cDYQ.png"
+    },
+    "level": 1,
+    "stars": 1,
+    "attackCount": 1,
+    "destruction": 7,
+    "members": [
+      {
+        "name": "casa quico",
+        "tag": "#VQ2U8J0J",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#GLPR2JV28"
+      },
+      {
+        "name": "RODA",
+        "tag": "#G0U9G2VY9",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "GABRIEL,PY",
+        "tag": "#LCLQ89VVL",
+        "mapPosition": 1,
+        "townHallLevel": 16,
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 70,
+            "order": 1,
+            "duration": 148,
+            "attackerTag": "#LCLQ89VVL",
+            "defenderTag": "#YCVULLG2Y"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#GLPR2JV28"
+      },
+      {
+        "name": "Omar",
+        "tag": "#VC02GCUQ",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "aaron_cc_19",
+        "tag": "#L9GR2YV9G",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
+      },
+      {
+        "name": "JOSE{°°}",
+        "tag": "#QY9RJUCQV",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "Rivaldo",
+        "tag": "#QPG0CJVQR",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Gabriel py 2",
+        "tag": "#QQY2GCRLP",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "cotufa",
+        "tag": "#P2UGUYUY0",
+        "mapPosition": 10,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#GQ9QV0P22"
+      },
+      {
+        "name": "zet",
+        "tag": "#QY98P292J",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#GQ9QV0P22"
+      }
+    ]
+  }
+}

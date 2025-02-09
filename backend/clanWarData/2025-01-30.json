@@ -1,0 +1,382 @@
+{
+  "state": "warEnded",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-29T11:44:51.000Z",
+  "startTime": "2025-01-30T10:44:51.000Z",
+  "endTime": "2025-01-31T10:44:51.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/oJFO0jteq1OUF7xzRh7zTF9xC-nm_j9kzh5tqkKjsDI.png"
+    },
+    "level": 10,
+    "stars": 12,
+    "attackCount": 6,
+    "destruction": 52.2,
+    "members": [
+      {
+        "name": "Paddington",
+        "tag": "#2PGPP0PP8",
+        "mapPosition": 2,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 74,
+            "order": 8,
+            "duration": 144,
+            "attackerTag": "#2PGPP0PP8",
+            "defenderTag": "#LJ0YQRGUQ"
+          },
+          {
+            "stars": 2,
+            "destruction": 99,
+            "order": 9,
+            "duration": 180,
+            "attackerTag": "#2PGPP0PP8",
+            "defenderTag": "#220V2UL99"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#9J80YLR2G"
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 89,
+            "order": 2,
+            "duration": 155,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#PQ20UYQC0"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#220V2UL99"
+      },
+      {
+        "name": "king danii",
+        "tag": "#Y29L998UC",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LCGYVPVUU"
+      },
+      {
+        "name": "Jaglonger",
+        "tag": "#GLPR2JV28",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#9J80YLR2G"
+      },
+      {
+        "name": "Vanessa",
+        "tag": "#QLCPYU9UL",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#PQ20UYQC0"
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 67,
+            "order": 7,
+            "duration": 110,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#LCGYVPVUU"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 20,
+            "duration": 82,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#LJ0LY2Y28"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#P9PUGL2G0"
+      },
+      {
+        "name": "Dbo",
+        "tag": "#Q9LCR8Q9V",
+        "mapPosition": 10,
+        "townHallLevel": 4,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Q22UVQCVY"
+      },
+      {
+        "name": "Miko",
+        "tag": "#QYULGUVQ2",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#PQ20UYQC0"
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 93,
+            "order": 1,
+            "duration": 159,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#P9PUGL2G0"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#LJ0YQRGUQ"
+      },
+      {
+        "name": "Hotlongs",
+        "tag": "#GQ9QV0P22",
+        "mapPosition": 9,
+        "townHallLevel": 8,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#Q22UVQCVY"
+      }
+    ]
+  },
+  "opponent": {
+    "name": "SMID",
+    "tag": "#CC2JQ0LQ",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/0hfM8y4zy3rWZK8Y4F1zx1i2Lc_5CoWQWN28XJiQHuU.png"
+    },
+    "level": 11,
+    "stars": 26,
+    "attackCount": 14,
+    "destruction": 89.4,
+    "members": [
+      {
+        "name": "ДАТО",
+        "tag": "#P9PUGL2G0",
+        "mapPosition": 3,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 76,
+            "order": 14,
+            "duration": 100,
+            "attackerTag": "#P9PUGL2G0",
+            "defenderTag": "#PG08P8J2Y"
+          },
+          {
+            "stars": 1,
+            "destruction": 64,
+            "order": 15,
+            "duration": 130,
+            "attackerTag": "#P9PUGL2G0",
+            "defenderTag": "#L0P8QP09P"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "komol",
+        "tag": "#LCP02GJ2L",
+        "mapPosition": 10,
+        "townHallLevel": 4,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "КОБА",
+        "tag": "#PQ20UYQC0",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 10,
+            "duration": 119,
+            "attackerTag": "#PQ20UYQC0",
+            "defenderTag": "#QLCPYU9UL"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 11,
+            "duration": 132,
+            "attackerTag": "#PQ20UYQC0",
+            "defenderTag": "#QYULGUVQ2"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
+      },
+      {
+        "name": "✌SCAR✌",
+        "tag": "#LJ0YQRGUQ",
+        "mapPosition": 2,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 70,
+            "order": 16,
+            "duration": 99,
+            "attackerTag": "#LJ0YQRGUQ",
+            "defenderTag": "#L0P8QP09P"
+          },
+          {
+            "stars": 1,
+            "destruction": 73,
+            "order": 17,
+            "duration": 130,
+            "attackerTag": "#LJ0YQRGUQ",
+            "defenderTag": "#2PGPP0PP8"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2PGPP0PP8"
+      },
+      {
+        "name": "мамур",
+        "tag": "#9J80YLR2G",
+        "mapPosition": 1,
+        "townHallLevel": 14,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 18,
+            "duration": 108,
+            "attackerTag": "#9J80YLR2G",
+            "defenderTag": "#2PGPP0PP8"
+          },
+          {
+            "stars": 1,
+            "destruction": 48,
+            "order": 19,
+            "duration": 88,
+            "attackerTag": "#9J80YLR2G",
+            "defenderTag": "#GLPR2JV28"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "$ MuRoD $",
+        "tag": "#LJ0LY2Y28",
+        "mapPosition": 8,
+        "townHallLevel": 10,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PG08P8J2Y"
+      },
+      {
+        "name": "MuRoD",
+        "tag": "#LCGYVPVUU",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 82,
+            "order": 3,
+            "duration": 100,
+            "attackerTag": "#LCGYVPVUU",
+            "defenderTag": "#QLCPYU9UL"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 4,
+            "duration": 92,
+            "attackerTag": "#LCGYVPVUU",
+            "defenderTag": "#Y29L998UC"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PG08P8J2Y"
+      },
+      {
+        "name": "MUROD",
+        "tag": "#PCCRQ9RCR",
+        "mapPosition": 9,
+        "townHallLevel": 7,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "НУР",
+        "tag": "#Q22UVQCVY",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 12,
+            "duration": 66,
+            "attackerTag": "#Q22UVQCVY",
+            "defenderTag": "#GQ9QV0P22"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 13,
+            "duration": 63,
+            "attackerTag": "#Q22UVQCVY",
+            "defenderTag": "#Q9LCR8Q9V"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "✌✌MAFIYA✌✌",
+        "tag": "#220V2UL99",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 93,
+            "order": 5,
+            "duration": 134,
+            "attackerTag": "#220V2UL99",
+            "defenderTag": "#QYULGUVQ2"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 6,
+            "duration": 140,
+            "attackerTag": "#220V2UL99",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2PGPP0PP8"
+      }
+    ]
+  }
+}

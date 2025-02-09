@@ -1,0 +1,396 @@
+{
+  "state": "warEnded",
+  "teamSize": 10,
+  "attacksPerMember": 2,
+  "preparationStartTime": "2025-01-20T12:09:56.000Z",
+  "startTime": "2025-01-21T11:55:03.000Z",
+  "endTime": "2025-01-22T11:55:03.000Z",
+  "warTag": null,
+  "clan": {
+    "name": "Soxtown",
+    "tag": "#2QCQVVQG2",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/6VN1fhSpXaP142t6ID1RZA27eyL2LU0Ih7PvA_si_P4.png"
+    },
+    "level": 9,
+    "stars": 23,
+    "attackCount": 11,
+    "destruction": 87.1,
+    "members": [
+      {
+        "name": "äskin",
+        "tag": "#LVRGJ8YLC",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 0
+      },
+      {
+        "name": "Paddington",
+        "tag": "#2PGPP0PP8",
+        "mapPosition": 4,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 95,
+            "order": 15,
+            "duration": 156,
+            "attackerTag": "#2PGPP0PP8",
+            "defenderTag": "#9RQ8JPQLU"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#9RQ8JPQLU"
+      },
+      {
+        "name": "november",
+        "tag": "#QCPVPC9VG",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 83,
+            "order": 13,
+            "duration": 121,
+            "attackerTag": "#QCPVPC9VG",
+            "defenderTag": "#CC20YRG8"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QU00QP8PV"
+      },
+      {
+        "name": "Ezio Auditore",
+        "tag": "#YCVULLG2Y",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 75,
+            "order": 1,
+            "duration": 95,
+            "attackerTag": "#YCVULLG2Y",
+            "defenderTag": "#2J9899Q2J"
+          }
+        ],
+        "defenseCount": 0
+      },
+      {
+        "name": "Jaglonger",
+        "tag": "#GLPR2JV28",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LL02Q0U0"
+      },
+      {
+        "name": "Vanessa",
+        "tag": "#QLCPYU9UL",
+        "mapPosition": 10,
+        "townHallLevel": 12,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 67,
+            "order": 4,
+            "duration": 116,
+            "attackerTag": "#QLCPYU9UL",
+            "defenderTag": "#QLPYJ8GJ9"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QLPYJ8GJ9"
+      },
+      {
+        "name": "Consticb123",
+        "tag": "#PG08P8J2Y",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 19,
+            "duration": 134,
+            "attackerTag": "#PG08P8J2Y",
+            "defenderTag": "#QLPYJ8GJ9"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#LL02Q0U0"
+      },
+      {
+        "name": "Rotter",
+        "tag": "#QYVPPLJVR",
+        "mapPosition": 3,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 7,
+            "duration": 130,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#LL02Q0U0"
+          },
+          {
+            "stars": 2,
+            "destruction": 91,
+            "order": 8,
+            "duration": 105,
+            "attackerTag": "#QYVPPLJVR",
+            "defenderTag": "#GPRRL8VP"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#GPRRL8VP"
+      },
+      {
+        "name": "Finn",
+        "tag": "#L0P8QP09P",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 70,
+            "order": 6,
+            "duration": 132,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#CJUPJ2QP"
+          },
+          {
+            "stars": 1,
+            "destruction": 57,
+            "order": 20,
+            "duration": 95,
+            "attackerTag": "#L0P8QP09P",
+            "defenderTag": "#YQG9ULRL"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YQG9ULRL"
+      },
+      {
+        "name": "Bester",
+        "tag": "#PVJLYLYRV",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 5,
+            "duration": 122,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#QU00QP8PV"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 12,
+            "duration": 108,
+            "attackerTag": "#PVJLYLYRV",
+            "defenderTag": "#Y2P9RQ0LG"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#QU00QP8PV"
+      }
+    ]
+  },
+  "opponent": {
+    "name": "Biotonne",
+    "tag": "#2GJ9PQPCJ",
+    "badge": {
+      "url": "https://api-assets.clashofclans.com/badges/512/C2wvBpW1vPkpdoGZkSBG2GFPq8GMT0S12wjyfKZg1iM.png"
+    },
+    "level": 9,
+    "stars": 19,
+    "attackCount": 10,
+    "destruction": 69.9,
+    "members": [
+      {
+        "name": "nigglehu",
+        "tag": "#GPRRL8VP",
+        "mapPosition": 3,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 89,
+            "order": 14,
+            "duration": 105,
+            "attackerTag": "#GPRRL8VP",
+            "defenderTag": "#QYVPPLJVR"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QYVPPLJVR"
+      },
+      {
+        "name": "BlessMyArmy69",
+        "tag": "#CC20YRG8",
+        "mapPosition": 7,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 1,
+            "destruction": 69,
+            "order": 2,
+            "duration": 96,
+            "attackerTag": "#CC20YRG8",
+            "defenderTag": "#PVJLYLYRV"
+          },
+          {
+            "stars": 1,
+            "destruction": 71,
+            "order": 3,
+            "duration": 84,
+            "attackerTag": "#CC20YRG8",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QCPVPC9VG"
+      },
+      {
+        "name": "dämon07",
+        "tag": "#Y2P9RQ0LG",
+        "mapPosition": 9,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PVJLYLYRV"
+      },
+      {
+        "name": "Max",
+        "tag": "#CJUPJ2QP",
+        "mapPosition": 5,
+        "townHallLevel": 13,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "Biertornado",
+        "tag": "#QU00QP8PV",
+        "mapPosition": 8,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 10,
+            "duration": 96,
+            "attackerTag": "#QU00QP8PV",
+            "defenderTag": "#PVJLYLYRV"
+          },
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 11,
+            "duration": 131,
+            "attackerTag": "#QU00QP8PV",
+            "defenderTag": "#QCPVPC9VG"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#PVJLYLYRV"
+      },
+      {
+        "name": "cedric",
+        "tag": "#QLPYJ8GJ9",
+        "mapPosition": 10,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 59,
+            "order": 9,
+            "duration": 141,
+            "attackerTag": "#QLPYJ8GJ9",
+            "defenderTag": "#QLCPYU9UL"
+          }
+        ],
+        "defenseCount": 2,
+        "_bestOpponentAttackerTag": "#PG08P8J2Y"
+      },
+      {
+        "name": "Lennart",
+        "tag": "#YQG9ULRL",
+        "mapPosition": 4,
+        "townHallLevel": 14,
+        "attacks": [
+          {
+            "stars": 2,
+            "destruction": 56,
+            "order": 16,
+            "duration": 85,
+            "attackerTag": "#YQG9ULRL",
+            "defenderTag": "#L0P8QP09P"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#L0P8QP09P"
+      },
+      {
+        "name": "Paul#185",
+        "tag": "#9RQ8JPQLU",
+        "mapPosition": 6,
+        "townHallLevel": 13,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 18,
+            "duration": 132,
+            "attackerTag": "#9RQ8JPQLU",
+            "defenderTag": "#2PGPP0PP8"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#2PGPP0PP8"
+      },
+      {
+        "name": "Levinhllng",
+        "tag": "#LL02Q0U0",
+        "mapPosition": 2,
+        "townHallLevel": 15,
+        "attacks": [
+          {
+            "stars": 3,
+            "destruction": 100,
+            "order": 17,
+            "duration": 85,
+            "attackerTag": "#LL02Q0U0",
+            "defenderTag": "#PG08P8J2Y"
+          },
+          {
+            "stars": 2,
+            "destruction": 95,
+            "order": 21,
+            "duration": 166,
+            "attackerTag": "#LL02Q0U0",
+            "defenderTag": "#GLPR2JV28"
+          }
+        ],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#QYVPPLJVR"
+      },
+      {
+        "name": "fred",
+        "tag": "#2J9899Q2J",
+        "mapPosition": 1,
+        "townHallLevel": 15,
+        "attacks": [],
+        "defenseCount": 1,
+        "_bestOpponentAttackerTag": "#YCVULLG2Y"
+      }
+    ]
+  }
+}
